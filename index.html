@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Hi+Melody&family=Orbit&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Moment App</title>
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Hi+Melody&family=Orbit&display=swap');
+    </style> -->
+</head>
+
+<body>
+
+
+    <form id="login-form" class="hidden" action="">
+        <input type="text" required maxlength="15" placeholder="What is your name?">
+        <input type="submit" name="" id="" value="Log In">
+    </form>
+
+    
+    <div id="todo-container">
+        <h2>✔️ To do list</h2>
+        <form action="" id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required maxlength="20">
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    
+    <h2 id="clock"></h2>
+    
+    <div id="left">
+        
+        
+        <h1 id="greeting" class="hidden"></h1>
+
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <div id="music">
+            <iframe width="300" height="200"
+                src="https://www.youtube.com/embed/iVg30U6O764?si=Brj2KB61zj_KAZka&autoplay=1&mute=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+</body>
+</body>
+
+</html>

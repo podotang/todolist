@@ -1,0 +1,148 @@
+
+body {
+    font-family: "Cabin","Orbit", sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+/* 로그인 폼 */
+#login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* 반투명한 흰색 배경 */
+    padding: 20px; /* 내부 여백 추가 */
+    border-radius: 20px; /* 라운드 처리 */
+    border: 5px solid rgb(243, 148, 210);
+}
+
+#login-form input{
+    height: 40px;
+
+}
+
+/* 환영 문구 */
+#greeting {
+    position: absolute;
+    top: 130px; /* 원하는 위치로 조정하세요 */
+    left: 90px; /* 원하는 위치로 조정하세요 */
+    background-color: rgba(255, 255, 255, 0.7); /* 반투명한 흰색 배경 */
+    padding: 10px; /* 내부 여백 추가 */
+    border-radius: 20px; /* 라운드 처리 */
+    border: 5px solid rgb(243, 148, 210);
+
+}
+
+/* 시계, 날씨, 명언 */
+#clock{
+    position: absolute;
+    height: 80px;
+    line-height: 80px;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* 반투명한 흰색 배경 */
+    padding: 10px; /* 내부 여백 추가 */
+    border-radius: 20px; /* 라운드 처리 */
+    border: 5px solid rgb(243, 148, 210);
+    font-size: 100px;
+    color: rgb(255, 135, 217);
+
+}
+
+#weather{
+    position: absolute;
+    top: 240px; /* 원하는 위치로 조정하세요 */
+    left: 90px; /* 원하는 위치로 조정하세요 */
+    background-color: rgba(255, 255, 255, 0.7); /* 반투명한 흰색 배경 */
+    padding: 10px; /* 내부 여백 추가 */
+    border-radius: 20px; /* 라운드 처리 */
+    border: 5px solid rgb(243, 148, 210);
+
+
+}
+#quote {
+    position: absolute;
+    top: 400px; /* 원하는 위치로 조정하세요 */
+    left: 90px; /* 원하는 위치로 조정하세요 */
+    background-color: rgba(255, 255, 255, 0.7); /* 반투명한 흰색 배경 */
+    padding: 10px; /* 내부 여백 추가 */
+    border-radius: 20px; /* 라운드 처리 */
+    border: 5px solid rgb(243, 148, 210);
+
+}
+
+
+#music {
+    position: absolute;
+    top: 560px; /* 원하는 위치로 조정하세요 */
+    left: 90px; /* 원하는 위치로 조정하세요 */
+    background-color: rgba(255, 255, 255, 0.7); /* 반투명한 흰색 배경 */
+    padding: 10px; /* 내부 여백 추가 */
+    border-radius: 20px; /* 라운드 처리 */
+    border: 5px solid rgb(243, 148, 210);
+}
+
+
+/* 부모 요소인 #todo-container 스타일 */
+#todo-container {
+    position: absolute;
+    top: 130px; /* 원하는 위치로 조정하세요 */
+    right: 90px; /* 원하는 위치로 조정하세요 */
+    width: 350px;
+    padding: 10px; /* 내부 여백 추가 */
+    border-radius: 20px; /* 라운드 처리 */
+    background-color: rgba(255, 255, 255, 0.7); /* 반투명한 흰색 배경 */
+    border: 5px solid rgb(243, 148, 210);
+    max-height: 600px; /* 최대 높이 설정 (여기서는 예시로 300px로 설정) */
+    overflow-y: auto; /* 세로 스크롤만 표시되도록 설정 */
+    text-align: center;
+}
+
+/* 투두 리스트 입력란 스타일 */
+#todo-form {
+    width: calc(100% - 20px); /* 입력 창의 너비를 부모 요소의 너비에 맞게 조정 */
+    border: none; /* 테두리 제거 */
+    background-color: transparent; /* 배경 투명으로 설정 */
+    padding: 10px; /* 내부 여백 추가 */
+    border-radius: 20px; /* 라운드 처리 */
+    outline: none; /* 포커스 테두리 제거 */
+    margin-bottom: 10px; /* 입력 창과 리스트 사이 간격 조정 */
+}
+
+/* 투두 리스트 스타일 */
+#todo-list {
+    padding: 0; /* 내부 여백 제거 */
+    list-style-type: none; /* 리스트 스타일 제거 */
+}
+
+/* 투두 리스트 아이템 스타일 */
+#todo-list li {
+    padding: 10px; /* 내부 여백 추가 */
+    border-radius: 20px; /* 라운드 처리 */
+    margin-bottom: 10px; /* 각 항목 사이의 간격 설정 */
+}
+
+#todo-list button{
+    float: right;
+}
+
+#todo-form input{
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    border: 5px solid rgb(243, 148, 210);
+}
+
+
+
+
+#left{
+    /* position: absolute; */
+    /* margin-top: 100px; */
+
+}
